@@ -1,0 +1,18 @@
+{
+  "name": "node-app-hello-world",
+  "version": "1.0.0",
+  "description": "a fresh v7.7.1 hello world",
+  "author": "Brett Dargan <bdargan@brettdargan.com>",
+  "main": "server.js",
+  "license": "MIT",
+  "repository" :
+  { "type" : "git",
+    "url" : "https://github.com/bdargan/node-app-hello-world.git"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
