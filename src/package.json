@@ -5,15 +5,15 @@
   "author": "Brett Dargan <bdargan@brettdargan.com>",
   "main": "server.js",
   "license": "MIT",
-   "repository" :
-   { "type" : "git",
-     "url" : "https://github.com/bdargan/node-app-hello-world.git"
-   },
-   "scripts": {
-     "start": "node_modules/coffee-script/bin/coffee server.coffee"
-   },
-   "dependencies": {
-     "express": "^4.13.3",
-     "coffee-script": "^1.9.3"
-   }
- }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bdargan/node-app-hello-world.git"
+  },
+  "scripts": {
+    "start": "node_modules/coffee-script/bin/coffee server.coffee"
+  },
+  "dependencies": {
+    "coffee-script": "^1.9.3",
+    "express": "^4.13.3"
+  }
+}
